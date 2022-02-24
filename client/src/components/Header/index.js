@@ -1,9 +1,7 @@
 import './styles.header.css';
 
-const Header = () => {
+export const Header = () => {
   return (
     <header>HELLO</header>
   );
 };
-
-export default Header;
