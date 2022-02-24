@@ -1,13 +1,16 @@
-
+import Header from './components/Header';
 import './App.css';
+import Footer from './components/Footer';
+import PlatformLinks from './features/PlatformLinks';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-
-          Make your input
-      </header>
+      <Header />
+      <main>
+        <PlatformLinks />
+      </main>
+      <Footer />
     </div>
   );
 }
