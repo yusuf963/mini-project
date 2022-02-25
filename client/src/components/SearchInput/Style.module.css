@@ -2,7 +2,8 @@
 /*TODO: Change from PX when you sort the mobile aspect of the styling out*/
 
 .searchContainer {
-    height: 60px;
+    box-sizing: border-box;
+    height: 50px;
     width: '100%';
 
     display: flex;
@@ -19,6 +20,7 @@
 
 .iconWrapper {
     opacity: 0.5;
+    height: 100%;
 }
 
 .buffer {
@@ -54,7 +56,8 @@
     margin-top: -20px;
 }
 
-.input:focus + .searchLabel {
+.input:focus + .searchLabel,
+.searchLabel.noTransition {
     margin-top: -20px;
     transform: scale(0.5);
 

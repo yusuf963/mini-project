@@ -1,0 +1,13 @@
+export { default as slab } from './slab.png';
+export { default as slack } from './slack.png';
+export { default as bamboo_hr } from './bamboo_hr.png';
+export { default as gsuite } from './gsuite.png';
+export { default as miro } from './miro.png';
+export { default as github } from './github.png';
+export { default as lastpass } from './lastpass.png';
+export { default as authy } from './authy.png';
+export { default as harvest } from './harvest.png';
+export { default as ihasco } from './ihasco.png';
+export { default as jira } from './jira.png';
+export { default as trello } from './trello.png';
+export { default as culture_amp } from './culture_amp.png';
