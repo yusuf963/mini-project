@@ -1,6 +1,6 @@
 nav {
   background: linear-gradient(91.28deg, #695EE5 -5.56%, #2E98DC 101.31%);
-  height: 76px;
+  height: 4.75em;
 }
 
 ul {
@@ -27,7 +27,7 @@ li {
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 28px;
+  line-height: 1.75em;
   color: white;
   cursor: pointer;
 }
@@ -40,4 +40,12 @@ li.active {
   background: rgba(255, 255, 255, 0.8);
   color: #464646;
   border-width: 0px 1px 0px;
+}
+
+.ul_styling {
+  min-width: 56.25em;
+}
+
+.nav_styling {
+  overflow-x: auto;
 }

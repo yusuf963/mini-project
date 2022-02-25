@@ -4,8 +4,8 @@ import "./styles.tabNav.css";
 
 export const TabNav = ({ tabs, activeTab, setActiveTab }) => {
   return (
-    <nav>
-      <ul>
+    <nav className="nav_styling" >
+      <ul className="ul_styling" >
         {tabs.map((tab, index) => (
           <li
             key={index}
