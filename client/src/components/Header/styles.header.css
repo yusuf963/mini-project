@@ -10,13 +10,33 @@ header {
   align-items: center;
 }
 
+.header_left {
+  display: flex;
+}
+
+.log_out {
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  border: 1px solid whitesmoke;
+  background-color: transparent;
+  color: whitesmoke;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+
+.log_out:hover {
+  background-color: white;
+  color: #2e98dc;
+}
+
 .header__logo {
   width: 200px;
 }
 
 .header__actions {
   display: flex;
-  
 }
 
 .header__actions > * {

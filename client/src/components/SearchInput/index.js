@@ -1,5 +1,5 @@
-import React from "react";
-import style from "./Style.module.css";
+import React from 'react';
+import style from './Style.module.css';
 import SearchIcon from './SearchIcon';
 
 const SearchInput = ({ value, onValueChange }) => {
@@ -14,16 +14,16 @@ const SearchInput = ({ value, onValueChange }) => {
 
         <div>
           <input
-            type={"text"}
+            type={'text'}
             value={value}
             onChange={({ target: { value } }) => onValueChange(value)}
             className={style.input}
             name="search"
           />
           <label
-            for="search"
+            htmlFor="search"
             className={`${style.searchLabel}${
-              value ? ` ${style.noTransition}` : ""
+              value ? ` ${style.noTransition}` : ''
             }`}
           >
             Search
