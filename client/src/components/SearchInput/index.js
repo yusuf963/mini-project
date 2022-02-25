@@ -2,7 +2,7 @@ import React from "react";
 import style from "./Style.module.css";
 import SearchIcon from './SearchIcon';
 
-const SearchInput = ({ value, onValueChange, submit, disableTransition }) => {
+const SearchInput = ({ value, onValueChange }) => {
   return (
     <>
       <div className={style.searchContainer}>
@@ -18,13 +18,12 @@ const SearchInput = ({ value, onValueChange, submit, disableTransition }) => {
             value={value}
             onChange={({ target: { value } }) => onValueChange(value)}
             className={style.input}
-            onSubmit={submit}
             name="search"
           />
           <label
             for="search"
             className={`${style.searchLabel}${
-              disableTransition ? ` ${style.noTransition}` : ""
+              value ? ` ${style.noTransition}` : ""
             }`}
           >
             Search

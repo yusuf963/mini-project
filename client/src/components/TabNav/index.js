@@ -1,6 +1,6 @@
-import { startCase, camelCase } from 'lodash';
+import { startCase, camelCase } from "lodash";
 
-import './styles.tabNav.css';
+import "./styles.tabNav.css";
 
 export const TabNav = ({ tabs, activeTab, setActiveTab }) => {
   return (
@@ -9,7 +9,7 @@ export const TabNav = ({ tabs, activeTab, setActiveTab }) => {
         {tabs.map((tab, index) => (
           <li
             key={index}
-            className={tab === activeTab ? 'active' : ''}
+            className={tab === activeTab ? "active" : ""}
             onClick={() => setActiveTab(tab)}
           >
             {startCase(camelCase(tab))}

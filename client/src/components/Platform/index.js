@@ -1,4 +1,4 @@
-import './styles.platform.css';
+import "./styles.platform.css";
 
 export const Platform = ({ platform, updateCategory }) => {
   const { name, icon, description, link, category } = platform;

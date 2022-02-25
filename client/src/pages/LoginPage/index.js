@@ -1,4 +1,4 @@
-import './styles.login.css';
+import "./styles.login.css";
 import googleIcon from "../../assets/icons8-google-50.png";
 import line from "../../assets/Line.svg";
 import radLogo from "../../assets/logo.svg";
