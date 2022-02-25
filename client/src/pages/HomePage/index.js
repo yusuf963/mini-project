@@ -23,6 +23,7 @@ export const HomePage = () => {
       (platform) => platform.category === activeTab
     );
     setFilteredPlatforms(filtered);
+    setSearchValue('');
   }, [activeTab]);
 
   useEffect(() => {
@@ -35,7 +36,9 @@ export const HomePage = () => {
       );
       setActiveTab(CATEGORIES.HOME);
       setFilteredPlatforms(filtered);
+      return;
     }
+    setFilteredPlatforms(platforms);
   }, [searchValue])
 
   return (
