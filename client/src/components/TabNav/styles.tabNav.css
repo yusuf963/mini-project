@@ -41,3 +41,11 @@ li.active {
   color: #464646;
   border-width: 0px 1px 0px;
 }
+
+.ul_styling {
+  min-width: 900px;
+}
+
+.nav_styling {
+  overflow-x: auto;
+}

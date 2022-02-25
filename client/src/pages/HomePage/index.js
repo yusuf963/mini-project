@@ -44,7 +44,9 @@ export const HomePage = () => {
   return (
     <Fragment>
       <Header>
-        <SearchInput value={searchValue} onValueChange={setSearchValue} />
+        <div className="searchWrapper">
+          <SearchInput value={searchValue} onValueChange={setSearchValue} />
+        </div>
       </Header>
       <main>
         <PlatformLinks
