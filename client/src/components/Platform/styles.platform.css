@@ -12,8 +12,10 @@
 
 .platform-links__link-icon {
   box-sizing: border-box;
-  height: 6.8125em;
-  width: 6.8125em;
+  height: 5em;
+  width: 5em;
+  border-radius: 0.3125em;
+  margin-bottom: 0.625em;
 }
 
 .platform-links__link-name {

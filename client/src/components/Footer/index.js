@@ -21,11 +21,11 @@ export const Footer = () => {
         <p>Lisbon, 1100-651 </p>
       </div>
       <div className="section-3">
-        <img src={behance_icon} alt="behance-icon" />
-        <img src={insta_icon} alt="insta-icon" />
-        <img src={linkedin_icon} alt="linkedin-icon" />
-        <img src={facebook_icon} alt="facebook-icon" />
-        <img src={dribble_icon} alt="dribble-icon" />
+        <img className="icon" src={behance_icon} alt="behance-icon" />
+        <img className="icon" src={insta_icon} alt="insta-icon" />
+        <img className="icon" src={linkedin_icon} alt="linkedin-icon" />
+        <img className="icon" src={facebook_icon} alt="facebook-icon" />
+        <img className="icon" src={dribble_icon} alt="dribble-icon" />
       </div>
       <div className="section-4">
         <img className="footer__logo" src={logo} alt="Rad logo" />
