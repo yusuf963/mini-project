@@ -1,3 +1,13 @@
 main {
   min-height: calc(100vh - 350px);
 }
+
+.searchWrapper {
+  width: 360px;
+}
+
+@media only screen and (max-width: 800px) {
+  .searchWrapper {
+    width: 100%;
+  }
+}
