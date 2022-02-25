@@ -3,16 +3,16 @@
 
 .searchContainer {
     box-sizing: border-box;
-    height: 50px;
+    height: 3.125em;
 
     display: flex;
     flex-direction: row;
     align-items: center;
     
-    padding: 10px 30px 10px 30px;
+    padding: 0.625em 1.875em 0.625em 1.875em;
 
     background-color: rgba(255, 255, 255, 0.75);
-    border-radius: 100px;
+    border-radius: 6.25em;
 
     flex: 1;
 }
@@ -23,19 +23,19 @@
 }
 
 .buffer {
-    margin-left: 20px;
+    margin-left: 1.25em;
 }
 
 .searchLabel {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125em;
     position: absolute;
     pointer-events: none;
 
     color: black;
     font-style: italic;
 
-    margin-top: -10px;
+    margin-top: -0.625em;
     transform-origin: top left;
     opacity: 0.75;
 
@@ -51,13 +51,13 @@
     background-color: transparent;
 
     position: absolute;
-    height: 40px;
-    margin-top: -20px;
+    height: 2.5em;
+    margin-top: -1.25em;
 }
 
 .input:focus + .searchLabel,
 .searchLabel.noTransition {
-    margin-top: -20px;
+    margin-top: -1.25em;
     transform: scale(0.5);
 
     opacity: 0.5;

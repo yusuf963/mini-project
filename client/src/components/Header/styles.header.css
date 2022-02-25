@@ -1,10 +1,10 @@
 header {
   box-sizing: border-box;
   background: linear-gradient(91.28deg, #695ee5 -5.56%, #2e98dc 101.31%);
-  height: 128px;
+  height: 8em;
   width: 100vw;
   border-bottom: 2px solid rgba(255, 255, 255, 0.15);
-  padding: 0 13px 0 48px;
+  padding: 0 0.8125em 0 3em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,9 +16,9 @@ header {
 }
 
 .log_out {
-  height: 50px;
-  width: 100px;
-  border-radius: 20px;
+  height: 3.125em;
+  width: 6.25em;
+  border-radius: 1.25em;
   border: 1px solid whitesmoke;
   background-color: transparent;
   color: whitesmoke;
@@ -33,7 +33,7 @@ header {
 }
 
 .header__logo {
-  width: 200px;
+  width: 12.5em;
 }
 
 .header__actions {
@@ -41,7 +41,7 @@ header {
 }
 
 .header__actions > * {
-  margin-right: 13px;
+  margin-right: 0.8125em;
 }
 
 @media only screen and (max-width: 800px) {
@@ -49,11 +49,11 @@ header {
     flex-direction: column;
     align-items: flex-start;
     height: auto;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 1.25em;
+    padding-top: 1.25em;
   }
     .header_left {
-      margin-top: 20px;
+      margin-top: 1.25em;
       width: 100%;
     }
     .header__actions {
@@ -63,11 +63,11 @@ header {
 
     .log_out {
       position: absolute;
-      top: 20px;
-      right: 20px;
+      top: 1.25em;
+      right: 1.25em;
     }
 
     .header__logo {
-      width: 140px;
+      width: 8.75em;
     }
 }

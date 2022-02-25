@@ -2,7 +2,7 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  max-width: 300px;
+  max-width: 18.75em;
   width: 100%;
   justify-self: center;
 }
@@ -12,24 +12,24 @@
 
 .platform-links__link-icon {
   box-sizing: border-box;
-  height: 109px;
-  width: 109px;
+  height: 6.8125em;
+  width: 6.8125em;
 }
 
 .platform-links__link-name {
-  height: 42px;
+  height: 2.625em;
   font-family: DM Sans;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 1.25em;
+  line-height: 1.625em;
   display: flex;
   align-items: center;
   color: #000000;
 }
 
 .platform-links__link-description {
-  height: 75px;
-  font-size: 18px;
-  line-height: 23px;
+  height: 4.6875em;
+  font-size: 1.125em;
+  line-height: 1.4375em;
   color: #000000;
 }
 
@@ -40,18 +40,18 @@
 .platform-links__link-category,
 .platform-links__link-footer a {
   display: flex;
-  padding: 2px 16px;
-  border-radius: 20px;
+  padding: 0.125em 1em;
+  border-radius: 1.25em;
   font-family: DM Sans;
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 1em;
+  line-height: 1.3125em;
   cursor: pointer;
 }
 
 .platform-links__link-category {
   background: #E5E5E5;
   color: #000000;
-  margin-right: 10px;
+  margin-right: 0.625em;
   transition: ease-in-out 0.1s;
 }
 
