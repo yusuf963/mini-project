@@ -1,25 +1,10 @@
 .platform-links {
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-}
-
-.platform-links__selected-category {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.platform-links__selected-category h2 {
-  margin-right: 10px;
-}
-
-.platform-links__selected-category button {
-  height: 30px;
-  border-radius: 4px;
-  border: none;
-  background-color: #282c34;
-  color: white;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  row-gap: 90px;
+  column-gap: 50px;
+  padding: 0 50px;
+  margin: 70px auto;
+  max-width: 1255px;
 }

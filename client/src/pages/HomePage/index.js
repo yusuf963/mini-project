@@ -9,9 +9,9 @@ export const HomePage = () => {
   return (
     <Fragment>
       <Header />
-        <main>
-          <PlatformLinks />
-        </main>
+      <main>
+        <PlatformLinks />
+      </main>
       <Footer />
     </Fragment>
   );

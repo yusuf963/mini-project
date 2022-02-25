@@ -17,7 +17,6 @@ export const LoginPage = () => {
 
         console.log(user);
 
-        // to replace with "navigate" or anything similar with some router
         navigate("/");
       })
       .catch((error) => {
@@ -25,7 +24,6 @@ export const LoginPage = () => {
       });
 
   return (
-    // <Router>
     <div className="App">
       <img className="radLogo" src={radLogo} alt="rad logo" />
       <img className="radLogo" src={line} alt="line" />
@@ -34,6 +32,5 @@ export const LoginPage = () => {
         Sign in with google
       </button>
     </div>
-    // </Router>
   );
 };
