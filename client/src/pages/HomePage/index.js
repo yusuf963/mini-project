@@ -55,7 +55,7 @@ export const HomePage = () => {
           filteredPlatforms={filteredPlatforms}
         />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </Fragment>
   );
 };
