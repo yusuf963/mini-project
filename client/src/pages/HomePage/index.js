@@ -7,6 +7,9 @@ import SearchInput from "../../components/SearchInput";
 import { platforms } from "../../data/platforms";
 import { CATEGORIES } from "../../data/platforms";
 
+// Class Components
+import Location from "../../ClassComponents/Location"
+
 import "./styles.home.css";
 
 export const HomePage = () => {
@@ -55,6 +58,7 @@ export const HomePage = () => {
           filteredPlatforms={filteredPlatforms}
         />
       </main>
+      <Location/>
       {/* <Footer /> */}
     </Fragment>
   );
